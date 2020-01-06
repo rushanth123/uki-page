@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uki Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".show").click(function(){
+    $("h4").toggle();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".p1").mouseenter(function(){
+    alert("The Page Says You entered to Uki!");
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".hide").click(function(){
+    $("li.intro").hide();
+  });
+  $(".show").click(function(){
+    $("li").show();
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".color").mouseenter(function(){
+    $("h3").css("background-color", "lightblue");
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p.intro").hide();
+  });
+});
+</script>
+</head>
+<body>
+<center><ins><a href="file:///home/ukistu21/Desktop/Uki%20Home/Uki%20home.html">Home</a></ins> | <ins><a href="file:///home/ukistu21/Desktop/Uki%20Home/Uki-form.html">Form</a></ins> | <ins><a href="file:///home/ukistu21/Desktop/Uki%20Home/Uki%20timetable.html">Timetable<a/></ins><br><br>
+<img src="images.png" alt="Uki logo" align="center">
+<p style="background-color:lightblue;" class="show p1"> Welcome to Uki </p>
+<h4>Hai Uki!</h4>
+<div style="float: center; width: 40%; background-color:lightblue; border-radius: 25px">
+<h3>Welcome to Uki: Stepping Stone To Tech Life</h3>
+<p>Uki is a coding school by Yarl IT Hub, which offers six months-long intensive,
+in-class training program that trains students to acquire skills needed to
+join tech companies as interns/ junior developers or become entrepreneurs.</p>
+</center></div>
+<div style="float: left; width: 35%; background-color:#ccc; border-radius: 25px">
+<br>
+<h3 class="color">Course</h3><br>
+<p>Uki is a life-changing program with a proven track record of enabling those who
+had completed secondary school education to join the tech industry.</p>
+<button class="hide">Hide</button>
+<button class="show">Show</button>
+
+<ul>
+<li>Programming</li>
+<li>Basic Business Skills</li>
+<li>English</li>
+<li>Personal Coaching</li>
+</ul>
+</div>
+<div style="float: right; width: 35%; background-color:#ccc; border-radius: 25px">
+<h3 class="color">Coding Accelerator Program</h3>
+<button>Details</button>
+<p class="intro">Learn to code in 6 months (Full time)
+Uki is a life-changing program with a proven track record of enabling those who
+had completed secondary school education to join the tech industry. The outcome-based
+learning experience at Uki is a meticulously designed program which has been
+developed by tech industry practitioners and skilled teachers. It ensures a
+transformational development of the technical skills, language skills, business
+skills and interpersonal skills of each student who completes the course.</p>
+</div>
+<footer style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: lightblue; text-align: center";>2019 © Uki. All Rights Reserved. An initiative by Yarl IT Hub</footer>
+</body>
+</html>
